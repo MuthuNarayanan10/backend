@@ -14,7 +14,7 @@ const route = require('./routes/route')
 
 mongoose.set('useFindAndModify', false);
 //connect to mongodb
-mongoose.connect('mongodb://localhost:27017/userlist');
+mongoose.connect('mongodb://52.66.209.110:27017/userlist');
 //on connection
 mongoose.connection.on('connected',()=>{
     console.log('connected to db engine');
